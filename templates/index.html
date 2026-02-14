@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Guardian - Digital Safety Bodyguard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🛡 AI Guardian</h1>
+    <p>Your Personal Digital Safety Bodyguard</p>
+
+    <form method="POST">
+        <textarea name="message" rows="6"
+            placeholder="Paste the message or conversation here..."
+            required></textarea>
+        <button type="submit">Activate Guardian</button>
+    </form>
+
+    {% if guardian_mode %}
+
+    <div class="guardian-box {{ guardian_mode }}">
+        <h2>Guardian Mode: {{ guardian_mode }}</h2>
+        <p>{{ guardian_message }}</p>
+
+        {% if flags %}
+        <h3>Detected Risk Patterns:</h3>
+        <ul>
+            {% for f in flags %}
+            <li>{{ f }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+        <h3>Suggested Protective Response:</h3>
+        <div class="reply-box">
+            "{{ suggested_reply }}"
+        </div>
+    </div>
+
+    {% endif %}
+
+</div>
+
+</body>
+</html>
