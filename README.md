@@ -2,53 +2,53 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [AI_Grooming_Detection] 🎯
+AI_Grooming_Detection 
 
 ## Basic Details
 
-### Team Name: [Nexa]
+### Team Name: Nexa
 
 ### Team Members
-- Member 1: [A.J.Athulya] - [College of Engineering and Management Punnapra]
-- Member 2: [Sherin Eabdhi H] - [College Of Engineering and Managemnet Punnapra]
+- Member 1: A.J.Athulya - College of Engineering and Management Punnapra
+- Member 2: Sherin Eabdhi H - College Of Engineering and Managemnet Punnapra
 
 ### Hosted Project Link
-[https://ajathulya.pythonanywhere.com/]
+https://ajathulya.pythonanywhere.com/
 
 ### Project Description
-[AI Guardian is an intelligent digital safety system designed to detect grooming, emotional manipulation, harassment, threats, and self-harm risks in online conversations.
+AI Guardian is an intelligent digital safety system designed to detect grooming, emotional manipulation, harassment, threats, and self-harm risks in online conversations.
 It analyzes messages using behavioral pattern detection and risk scoring to identify harmful intent and escalation.
-The system provides real-time protective guidance, suggested safe responses, and risk alerts to enhance women’s digital safety.]
+The system provides real-time protective guidance, suggested safe responses, and risk alerts to enhance women’s digital safety.
 
 ### The Problem statement
-[Online communication platforms have increasingly become spaces where women are exposed to grooming, emotional manipulation, harassment, threats, and psychological exploitation. Existing moderation systems primarily rely on basic keyword filtering and often fail to detect subtle behavioral patterns, escalation, and context-based risks. There is a need for an intelligent, real-time digital safety system that can analyze conversations, identify harmful intent, and provide protective guidance to enhance women’s online safety.]
+Online communication platforms have increasingly become spaces where women are exposed to grooming, emotional manipulation, harassment, threats, and psychological exploitation. Existing moderation systems primarily rely on basic keyword filtering and often fail to detect subtle behavioral patterns, escalation, and context-based risks. There is a need for an intelligent, real-time digital safety system that can analyze conversations, identify harmful intent, and provide protective guidance to enhance women’s online safety.
 
 ### The Solution
-[AI Guardian proposes a hybrid intelligent safety system that analyzes online conversations to detect grooming, emotional manipulation, harassment, threats, and self-harm risks using behavioral pattern recognition and rule-based risk scoring. The system classifies the severity level into Guardian Modes (Calm, Alert, Defense, Emergency) and provides real-time protective guidance and suggested safe responses. By combining contextual detection with escalation analysis, AI Guardian acts as a digital safety bodyguard to enhance women’s online security and awareness.]
+AI Guardian proposes a hybrid intelligent safety system that analyzes online conversations to detect grooming, emotional manipulation, harassment, threats, and self-harm risks using behavioral pattern recognition and rule-based risk scoring. The system classifies the severity level into Guardian Modes (Calm, Alert, Defense, Emergency) and provides real-time protective guidance and suggested safe responses. By combining contextual detection with escalation analysis, AI Guardian acts as a digital safety bodyguard to enhance women’s online security and awareness.
 
 ---
 
 ## Technical Details
 
 ### Technologies
-- Languages used: [Python,HTML,CSS]
-- Frameworks used: [flask]
-- Libraries used: [Flask, re (Regular Expressions), nltk (optional for NLP enhancement)]
-- Tools used: [VS Code, Git, GitHub, Replit/Render (for hosting)]
+- Languages used: Python,HTML,CSS
+- Frameworks used: flask
+- Libraries used: Flask, re (Regular Expressions), nltk (optional for NLP enhancement)
+- Tools used: VS Code, Git, GitHub, Replit/Render (for hosting)
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Behavioral Risk Detection
-Detects grooming, threats, harassment, emotional manipulation, secrecy patterns, and self-harm risks in conversations]
-- Feature 2: [Guardian Mode Classification
-Classifies risk into four safety levels: Calm, Alert, Defense, and Emergency]
-- Feature 3: [Protective Response Suggestion
-Suggests safe and assertive replies to protect users from manipulation or harmful interaction.]
-- Feature 4: [Hybrid Intelligent Rule Engine
-Uses phrase-based detection, escalation scoring, and contextual risk logic for more accurate safety analysis.]
+- Feature 1: Behavioral Risk Detection
+Detects grooming, threats, harassment, emotional manipulation, secrecy patterns, and self-harm risks in conversations
+- Feature 2: Guardian Mode Classification
+Classifies risk into four safety levels: Calm, Alert, Defense, and Emergency
+- Feature 3: Protective Response Suggestion
+Suggests safe and assertive replies to protect users from manipulation or harmful interaction.
+- Feature 4: Hybrid Intelligent Rule Engine
+Uses phrase-based detection, escalation scoring, and contextual risk logic for more accurate safety analysis.
 
 ---
 
@@ -80,14 +80,14 @@ Emergency mode triggered when self-harm or severe threats are detected
 
 **System Architecture:**
 
-![Architecture Diagram](https://drive.google.com/file/d/1WxlKHmF2in52nqLmTP8RYY2iK8go2HaI/view?usp=drive_link)
+Architecture Diagram(https://drive.google.com/file/d/1WxlKHmF2in52nqLmTP8RYY2iK8go2HaI/view?usp=drive_link)
 AI Guardian uses a three-layer architecture consisting of a frontend interface, a Flask backend server, and a hybrid risk detection engine.
 User input is processed by the backend where behavioral patterns and risk levels are analyzed.
 The system then returns Guardian Mode classification and protective suggestions to the user interface.
 
 **Application Workflow:**
 
-![Workflow](https://drive.google.com/file/d/1jVbMZz3qyh8lrXlM3tzuVVtZBzllyUKW/view?usp=drive_link)
+Workflow(https://drive.google.com/file/d/1jVbMZz3qyh8lrXlM3tzuVVtZBzllyUKW/view?usp=drive_link)
 The user submits conversation text through the web interface for analysis.
 The system preprocesses the input, detects harmful patterns such as grooming, threats, or manipulation, and calculates a risk score.
 Based on severity, it classifies the interaction into Calm, Alert, Defense, or Emergency mode and provides safety guidance.
@@ -152,15 +152,12 @@ Emergency self-harm detection
 
 Guardian Mode switching
 
-### Additional Demos
-[Add any extra demo materials/links - Live site, APK download, online demo, etc.]
 
----
 
 ## Team Contributions
 
-- [A.J.Athulya]: [ Backend development, Risk detection logic, System design]
-- [Sherin Ebadhi H]: [Frontend UI design, Styling, User experience]
+- A.J.Athulya: Backend development, Risk detection logic, System design
+- Sherin Ebadhi H: Frontend UI design, Styling, User experience
 ---
 
 ## License
@@ -170,3 +167,4 @@ This project is licensed under the [MIT] License - see the [LICENSE](LICENSE) fi
 ---
 
 Made with ❤️ at TinkerHub
+
